@@ -1,0 +1,101 @@
+{
+  "veille": { "numero": 5, "date": "2026-11-02" },
+  "items": [
+    {
+      "id": "2026-11-02-01",
+      "type": "etude",
+      "titre": "[EXEMPLE FICTIF] Un programme court de pleine conscience réduit les rechutes anxieuses",
+      "idee_cle": "Huit séances de groupe réduisent les rechutes à un an par rapport aux soins habituels.",
+      "comparaison": {
+        "a": { "label": "Programme", "valeur": 33 },
+        "b": { "label": "Soins habituels", "valeur": 44 },
+        "unite": "%"
+      },
+      "methode": { "type": "essai randomisé", "participants": 500, "pays": "États-Unis" },
+      "solidite": 2,
+      "pourquoi": [
+        "Format court, transposable à un cabinet.",
+        "Résultat maintenu à 12 mois."
+      ],
+      "limites": [
+        "méthode : les participants savaient dans quel groupe ils étaient.",
+        "périmètre : adultes volontaires, pas de cas sévères."
+      ],
+      "question": "Qu'est-ce qui, dans le groupe, produit l'effet : la technique ou le lien entre participants ?",
+      "themes": ["anxiété", "pleine conscience"],
+      "source": {
+        "revue": "Revue fictive de psychologie clinique",
+        "lien_etude": "https://example.org/etude-1",
+        "lien_vulgarisation": "https://example.org/vulgarisation-1",
+        "date_parution": "2026-10-07"
+      },
+      "temps_lecture_min": 2
+    },
+    {
+      "id": "2026-11-02-02",
+      "type": "etude",
+      "titre": "[EXEMPLE FICTIF] Le suivi par SMS entre deux séances : un effet modeste",
+      "idee_cle": "Un message hebdomadaire de rappel améliore un peu la régularité des exercices.",
+      "chiffre_cle": { "valeur": "0,013 %", "legende": "des patients suivis (donnée d'exemple)" },
+      "methode": { "type": "étude observationnelle", "participants": 1200, "pays": "France" },
+      "solidite": 1,
+      "pourquoi": [
+        "Outil simple et peu coûteux.",
+        "Pose la question de l'alliance entre les séances."
+      ],
+      "limites": [
+        "méthode : pas de groupe de comparaison.",
+        "périmètre : une seule clinique."
+      ],
+      "question": "Un rappel aide-t-il, ou crée-t-il une pression de plus ?",
+      "themes": ["relation", "pratique"],
+      "source": {
+        "revue": "Revue fictive de psychothérapie",
+        "lien_etude": "https://example.org/etude-2",
+        "date_parution": "2026-10-14"
+      },
+      "temps_lecture_min": 1
+    },
+    {
+      "id": "2026-11-02-03",
+      "type": "essai",
+      "titre": "[EXEMPLE FICTIF] Ce que le silence fait en séance",
+      "auteur": "Auteur fictif",
+      "idee_cle": "Un essai sur la fonction du silence dans la relation d'aide.",
+      "themes": ["existentiel", "relation"],
+      "source": { "revue": "Revue fictive de philosophie", "lien_etude": "https://example.org/essai-3", "date_parution": "2026-09-20" },
+      "usage": "P",
+      "mise_en_garde": "Texte d'opinion, sans données. À lire comme une piste de réflexion.",
+      "temps_lecture_min": 8
+    },
+    {
+      "id": "2026-11-02-04",
+      "type": "livre",
+      "titre": "[EXEMPLE FICTIF] Apprendre à écouter",
+      "auteur": "Autrice fictive",
+      "idee_cle": "Un guide de l'écoute active, avec des exercices courts.",
+      "themes": ["relation", "pratique"],
+      "source": { "revue": "Éditions fictives", "lien_etude": "https://example.org/livre-4", "date_parution": "2026-08-15" },
+      "usage": "P R",
+      "mise_en_garde": "Vérifier les références citées avant de le recommander.",
+      "temps_lecture_min": 240
+    },
+    {
+      "id": "2026-11-02-05",
+      "type": "film",
+      "titre": "[EXEMPLE FICTIF] La salle d'attente",
+      "auteur": "Réalisateur fictif",
+      "idee_cle": "Un film sur le deuil et la parole retrouvée.",
+      "themes": ["deuil", "existentiel"],
+      "source": { "revue": "Plateforme fictive", "lien_etude": "https://example.org/film-5", "date_parution": "2026-10-01" },
+      "usage": "P",
+      "mise_en_garde": "Scènes émouvantes : à regarder quand tu as de l'énergie.",
+      "temps_lecture_min": 105
+    },
+    {
+      "id": "2026-11-02-06",
+      "type": "podcast",
+      "titre": "[EXEMPLE FICTIF] Épisode : douter de soi sans s'effondrer"
+    }
+  ]
+}
